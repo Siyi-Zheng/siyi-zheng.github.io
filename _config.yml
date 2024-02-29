@@ -2,7 +2,7 @@
 # See https://jekyllrb.com/docs/configuration/ to further customize this file
 # Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
 
-theme: jekyll-theme-minimal
+remote_theme: chrisbobbe/jekyll-theme-prologue
 title: My Website
 description: "A short description of your project"
 
