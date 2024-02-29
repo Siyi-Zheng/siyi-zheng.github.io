@@ -16,3 +16,5 @@ timezone: Europe/London # see https://en.wikipedia.org/wiki/List_of_tz_database_
 # exclude:  
 # - .gitignore
 # - CNAME 
+
+collections: [sections]
