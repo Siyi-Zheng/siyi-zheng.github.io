@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+    h2 {
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    .sub-item {
+      margin-left: 20px;
+    }
+    .experience-place {
+      float: right;
+      text-align: right;
+    }
+    .experience-time {
+      float: right;
+      text-align: right;
+      margin-top: -20px;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .hollow-bullet {
+      list-style-type: none;
+      position: relative;
+    }
+    .hollow-bullet:before {
+      content: '';
+      position: absolute;
+      left: -20px;
+      top: 4px;
+      border: 1px solid #007bff;
+      border-radius: 50%;
+      width: 8px;
+      height: 8px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section>
+      <h2>Education</h2>
+      <ul id="education-list">
+        <!-- Education items will be added here -->
+      </ul>
+    </section>
+    <section>
+      <h2>Work and Research Experience</h2>
+      <ul id="experience-list">
+        <!-- Experience items will be added here -->
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
